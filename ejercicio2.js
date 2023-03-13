@@ -6,6 +6,8 @@ function recibirNombres(nave) {
 let codigo = recibirNombres("ARQ2555: fin");
 console.log(codigo[1]);
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
 let recibirNombres1 = (nave) => {
   let dividirLetras = nave.split(":");
   return dividirLetras;

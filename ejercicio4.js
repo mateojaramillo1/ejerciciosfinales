@@ -29,9 +29,9 @@ let buscarSablesConEnergiaNegativa1 = (energiaSables) => {
   return contadorDeSables;
 };
 
-let cantidadDeSablesConEnergiaNegativa1 = buscarSablesConEnergiaNegativa1(energiaSables);
+let cantidadDeSablesConEnergiaNegativa1 =
+  buscarSablesConEnergiaNegativa1(energiaSables);
 
 console.log(
-    `la cantidad de sables con energia negariva son ${cantidadDeSablesConEnergiaNegativa1}`
-  );
-  
+  `la cantidad de sables con energia negariva son ${cantidadDeSablesConEnergiaNegativa1}`
+);

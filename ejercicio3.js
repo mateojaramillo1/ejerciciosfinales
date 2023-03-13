@@ -5,6 +5,7 @@ function calcularTemperatura(temperaturaMaxima, temperaturaMinima) {
 
 console.log(calcularTemperatura(30,20))
 
+/////////////////////////////////////////////////////////////////////////////////////////////////
 
 let calcularTemperatura1 = (temperaturaMaxima, temperaturaMinima) =>{
     let temperaturaMedia = (temperaturaMaxima + temperaturaMinima) / 2;
