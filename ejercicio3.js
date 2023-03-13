@@ -3,7 +3,7 @@ function calcularTemperatura(temperaturaMaxima, temperaturaMinima) {
   return temperaturaMedia;
 }
 
-console.log(calcularTemperatura(30,20))
+console.log(`la temperatura media es de ${calcularTemperatura(30,21)}`)
 
 /////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -12,4 +12,4 @@ let calcularTemperatura1 = (temperaturaMaxima, temperaturaMinima) =>{
     return temperaturaMedia;
 }
 
-console.log(calcularTemperatura1(30,21))
+console.log(`la temperatura media es de ${calcularTemperatura1(30,21)}`)
